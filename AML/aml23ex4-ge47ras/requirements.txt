@@ -1,0 +1,8 @@
+torch
+torchvision
+einops
+numpy
+matplotlib
+notebook
+typeguard==2.13.3
+torchtyping==0.1.4
