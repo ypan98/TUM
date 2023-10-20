@@ -1,3 +1,3 @@
 # TUM - M.Sc Informatics Courseworks
 
-Compilation of course material and exercise code collected during the master studies.
+Collection of teaching material and exercise code of courses taken during the study.
