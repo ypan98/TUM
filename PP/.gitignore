@@ -1,0 +1,15 @@
+# blacklist everyhting
+*
+# don't blacklist directories
+!*/
+
+# and these files
+!.gitignore
+!.gitlab-ci.yml
+!Makefile
+!*.cpp
+!*.c
+!*.h
+!*.hpp
+!*.md
+!*.py

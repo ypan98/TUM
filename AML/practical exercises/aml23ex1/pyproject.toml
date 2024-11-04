@@ -1,0 +1,33 @@
+[build-system]
+requires = ["flit_core >=3.7,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "flows"
+dynamic = ["version", "description"]
+
+dependencies = [
+    # PyTorch etc.
+    "torch ~= 2.0",
+    "torchvision",
+    "torchtyping",
+
+    # General science & ml
+    "numpy",
+    "scikit-learn",
+
+    # Plotting & visualization
+    "matplotlib",
+
+    # Utilities
+    "tqdm",
+    "rich",
+    "ipython",
+    "ipdb",
+    "jupyterlab",
+    "ipympl",
+    "typeguard ~= 2.9",
+]
+requires-python = ">=3.10"
+license = {text = "MIT"}
+
